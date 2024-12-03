@@ -7,8 +7,6 @@ A ferramenta de visualização utilizada é o **Power BI**, que extrai os dados 
 
 ---
 
----
-
 ## Sobre as Visualizações
 
 As visualizações são criadas para ajudar na análise e tomada de decisões com base nos dados processados.
