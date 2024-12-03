@@ -7,7 +7,6 @@ A ferramenta de visualização utilizada é o **Power BI**, que extrai os dados 
 
 ---
 
-
 ---
 
 ## Sobre as Visualizações
