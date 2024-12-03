@@ -73,7 +73,7 @@ Os dados utilizados para criação dos gráficos são retirados do DataLake, a p
 <details>
 <summary>Medidas</summary>
 
-PrimeiraEmissaoAtual - Quantidade de primeiras emissões considerando a ultima data (Existem varias duplicatas dos dados na tabela, então é necessário selecionar somente a última)
+**PrimeiraEmissaoAtual** - Quantidade de primeiras emissões considerando a ultima data (Existem varias duplicatas dos dados na tabela, então é necessário selecionar somente a última)
 ```DAX
 CALCULATE(
     SUM('etitulo etitulo'[QTDE_PRIMEIRA_EMISSAO]),
@@ -81,7 +81,7 @@ CALCULATE(
 )
 ```
 
-QtdReemissõesAtual - Quantidade de reemissões considerando a última data.
+**QtdReemissõesAtual** - Quantidade de reemissões considerando a última data.
 ```DAX
 CALCULATE(
     SUM('etitulo etitulo'[QTDE_REMISSAO]),
@@ -89,7 +89,7 @@ CALCULATE(
 )
 ```
 
-QtdEmissõesTotais - Quantidade de emissões totais considerando ultima data
+**QtdEmissõesTotais** - Quantidade de emissões totais considerando ultima data
 ```DAX
 CALCULATE(
     SUM('etitulo etitulo'[QTDE_EMISSAO]),
@@ -97,7 +97,7 @@ CALCULATE(
 )
 ```
 
-% Emissões por Eleitorado
+**% Emissões por Eleitorado** - Divisão de quantidade de emissões totais pela quantidade de eleitores em determinado estado.
 ```DAX
 VAR totalEleitores = CALCULATE(
     SUM('etitulo etitulo'[QT_ELEITORES_PERFIL]),
@@ -109,7 +109,7 @@ VAR totalEmissoes = [QtdEmissaoTotal]
 RETURN DIVIDE(totalEmissoes,totalEleitores)
 ```
 
-Qtd. Eleitorado
+**Qtd. Eleitorado** - Total de Eleitores em um estado considerando a última atualização
 ```DAX
 CALCULATE(
     SUM('etitulo etitulo'[QT_ELEITORES_PERFIL]),
@@ -117,7 +117,7 @@ CALCULATE(
 )
 ```
 
-Rank % Emissões
+**Rank % Emissões** - Rank de % de Emissões
 ```DAX
 RANKX(
     ALL('etitulo etitulo'[UF]),
@@ -127,7 +127,7 @@ RANKX(
 )
 ```
 
-Rank % Emissões RN
+**Rank % Emissões RN** - A posição do Rank de % de Emissões (Usei separado dessa forma e não fiz um filtro, pois utilizei dentro do texto)
 ```DAX
 CALCULATE(
     [Rank % Emissões],
@@ -135,7 +135,7 @@ CALCULATE(
 )
 ```
 
-QtdEmissãoTotalRN
+**QtdEmissãoTotalRN** - Quantidade de emissões totais somente para o estado do RN
 ```DAX
 CALCULATE(
     SUM('etitulo etitulo'[QTDE_EMISSAO]),
@@ -144,7 +144,7 @@ CALCULATE(
 )
 ```
 
-Rank % Emissões RN Nordeste
+**Rank % Emissões RN Nordeste** - Posição do rank da % Emissão do RN dentro da região Nordeste
 ```DAX
 CALCULATE(
     [Rank % Emissões],
