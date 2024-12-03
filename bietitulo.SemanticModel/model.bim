@@ -12,7 +12,7 @@
       },
       {
         "name": "PBIDesktopVersion",
-        "value": "2.138.1004.0 (24.11)"
+        "value": "2.138.1203.0 (24.11)"
       },
       {
         "name": "PBI_ProTooling",
@@ -1834,7 +1834,7 @@
                     }
                   },
                   {
-                    "Primeira Emissão": {
+                    "Primeiras Emissões": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -1844,7 +1844,7 @@
                     }
                   },
                   {
-                    "Primeiras Emissões": {
+                    "Primeira Emissão": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -2135,7 +2135,7 @@
                         "Role": "d_calendario.date.variation.hierarquia_de_data.ano"
                       }
                     },
-                    "ID": "anos_have_trimestres",
+                    "ID": "anos_have_trimestres2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -2148,12 +2148,12 @@
                         "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_anos",
+                    "ID": "trimestres_have_anos2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "trimestres_are_in_anos2",
+                    "ID": "trimestres_are_in_anos",
                     "Preposition": {
                       "Object": {
                         "Role": "d_calendario.date.variation.hierarquia_de_data.ano"
@@ -2201,7 +2201,7 @@
                         "Role": "d_calendario.date.variation.hierarquia_de_data"
                       }
                     },
-                    "ID": "hierarquia_de_data_have_anos",
+                    "ID": "hierarquia_de_data_have_anos2",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -2234,7 +2234,7 @@
                         "Role": "d_calendario.date.variation.hierarquia_de_data"
                       }
                     },
-                    "ID": "hierarquia_de_data_have_dias",
+                    "ID": "hierarquia_de_data_have_dias2",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -2267,7 +2267,7 @@
                         "Role": "d_calendario.date.variation.hierarquia_de_data"
                       }
                     },
-                    "ID": "hierarquia_de_data_have_mê",
+                    "ID": "hierarquia_de_data_have_mê2",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -2300,7 +2300,7 @@
                         "Role": "d_calendario.date.variation.hierarquia_de_data"
                       }
                     },
-                    "ID": "hierarquia_de_data_have_trimestres",
+                    "ID": "hierarquia_de_data_have_trimestres2",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -2333,7 +2333,7 @@
                         "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
                       }
                     },
-                    "ID": "mê_have_dias",
+                    "ID": "mê_have_dias2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -2346,12 +2346,12 @@
                         "Role": "d_calendario.date.variation.hierarquia_de_data.dia"
                       }
                     },
-                    "ID": "dias_have_mê",
+                    "ID": "dias_have_mê2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "dias_are_in_mê2",
+                    "ID": "dias_are_in_mê",
                     "Preposition": {
                       "Object": {
                         "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
@@ -2399,7 +2399,7 @@
                         "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_mê",
+                    "ID": "trimestres_have_mê2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -2412,12 +2412,12 @@
                         "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
                       }
                     },
-                    "ID": "mê_have_trimestres",
+                    "ID": "mê_have_trimestres2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "mê_are_in_trimestres2",
+                    "ID": "mê_are_in_trimestres",
                     "Preposition": {
                       "Object": {
                         "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
@@ -2894,7 +2894,7 @@
                         "Role": "etitulo_etitulo.data_objeto.variation.hierarquia_de_data.ano"
                       }
                     },
-                    "ID": "anos_have_trimestres2",
+                    "ID": "anos_have_trimestres1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -2907,12 +2907,12 @@
                         "Role": "etitulo_etitulo.data_objeto.variation.hierarquia_de_data.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_anos2",
+                    "ID": "trimestres_have_anos1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "trimestres_are_in_anos",
+                    "ID": "trimestres_are_in_anos1",
                     "Preposition": {
                       "Object": {
                         "Role": "etitulo_etitulo.data_objeto.variation.hierarquia_de_data.ano"
@@ -2960,7 +2960,7 @@
                         "Role": "etitulo_etitulo.data_objeto.variation.hierarquia_de_data"
                       }
                     },
-                    "ID": "hierarquia_de_data_have_anos2",
+                    "ID": "hierarquia_de_data_have_anos1",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -2993,7 +2993,7 @@
                         "Role": "etitulo_etitulo.data_objeto.variation.hierarquia_de_data"
                       }
                     },
-                    "ID": "hierarquia_de_data_have_dias2",
+                    "ID": "hierarquia_de_data_have_dias1",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -3026,7 +3026,7 @@
                         "Role": "etitulo_etitulo.data_objeto.variation.hierarquia_de_data"
                       }
                     },
-                    "ID": "hierarquia_de_data_have_mê2",
+                    "ID": "hierarquia_de_data_have_mê1",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -3059,7 +3059,7 @@
                         "Role": "etitulo_etitulo.data_objeto.variation.hierarquia_de_data"
                       }
                     },
-                    "ID": "hierarquia_de_data_have_trimestres2",
+                    "ID": "hierarquia_de_data_have_trimestres1",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -3092,7 +3092,7 @@
                         "Role": "etitulo_etitulo.data_objeto.variation.hierarquia_de_data.mê"
                       }
                     },
-                    "ID": "mê_have_dias2",
+                    "ID": "mê_have_dias1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -3105,12 +3105,12 @@
                         "Role": "etitulo_etitulo.data_objeto.variation.hierarquia_de_data.dia"
                       }
                     },
-                    "ID": "dias_have_mê2",
+                    "ID": "dias_have_mê1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "dias_are_in_mê",
+                    "ID": "dias_are_in_mê1",
                     "Preposition": {
                       "Object": {
                         "Role": "etitulo_etitulo.data_objeto.variation.hierarquia_de_data.mê"
@@ -3158,7 +3158,7 @@
                         "Role": "etitulo_etitulo.data_objeto.variation.hierarquia_de_data.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_mê2",
+                    "ID": "trimestres_have_mê1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -3171,12 +3171,12 @@
                         "Role": "etitulo_etitulo.data_objeto.variation.hierarquia_de_data.mê"
                       }
                     },
-                    "ID": "mê_have_trimestres2",
+                    "ID": "mê_have_trimestres1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "mê_are_in_trimestres",
+                    "ID": "mê_are_in_trimestres1",
                     "Preposition": {
                       "Object": {
                         "Role": "etitulo_etitulo.data_objeto.variation.hierarquia_de_data.trimestre"
@@ -3257,7 +3257,7 @@
                         "Role": "etitulo_etitulo.extraido_em.variation.hierarquia_de_data.ano"
                       }
                     },
-                    "ID": "anos_have_trimestres1",
+                    "ID": "anos_have_trimestres",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -3270,12 +3270,12 @@
                         "Role": "etitulo_etitulo.extraido_em.variation.hierarquia_de_data.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_anos1",
+                    "ID": "trimestres_have_anos",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "trimestres_are_in_anos1",
+                    "ID": "trimestres_are_in_anos2",
                     "Preposition": {
                       "Object": {
                         "Role": "etitulo_etitulo.extraido_em.variation.hierarquia_de_data.ano"
@@ -3323,7 +3323,7 @@
                         "Role": "etitulo_etitulo.extraido_em.variation.hierarquia_de_data"
                       }
                     },
-                    "ID": "hierarquia_de_data_have_anos1",
+                    "ID": "hierarquia_de_data_have_anos",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -3356,7 +3356,7 @@
                         "Role": "etitulo_etitulo.extraido_em.variation.hierarquia_de_data"
                       }
                     },
-                    "ID": "hierarquia_de_data_have_dias1",
+                    "ID": "hierarquia_de_data_have_dias",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -3389,7 +3389,7 @@
                         "Role": "etitulo_etitulo.extraido_em.variation.hierarquia_de_data"
                       }
                     },
-                    "ID": "hierarquia_de_data_have_mê1",
+                    "ID": "hierarquia_de_data_have_mê",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -3422,7 +3422,7 @@
                         "Role": "etitulo_etitulo.extraido_em.variation.hierarquia_de_data"
                       }
                     },
-                    "ID": "hierarquia_de_data_have_trimestres1",
+                    "ID": "hierarquia_de_data_have_trimestres",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -3455,7 +3455,7 @@
                         "Role": "etitulo_etitulo.extraido_em.variation.hierarquia_de_data.mê"
                       }
                     },
-                    "ID": "mê_have_dias1",
+                    "ID": "mê_have_dias",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -3468,12 +3468,12 @@
                         "Role": "etitulo_etitulo.extraido_em.variation.hierarquia_de_data.dia"
                       }
                     },
-                    "ID": "dias_have_mê1",
+                    "ID": "dias_have_mê",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "dias_are_in_mê1",
+                    "ID": "dias_are_in_mê2",
                     "Preposition": {
                       "Object": {
                         "Role": "etitulo_etitulo.extraido_em.variation.hierarquia_de_data.mê"
@@ -3521,7 +3521,7 @@
                         "Role": "etitulo_etitulo.extraido_em.variation.hierarquia_de_data.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_mê1",
+                    "ID": "trimestres_have_mê",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -3534,12 +3534,12 @@
                         "Role": "etitulo_etitulo.extraido_em.variation.hierarquia_de_data.mê"
                       }
                     },
-                    "ID": "mê_have_trimestres1",
+                    "ID": "mê_have_trimestres",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "mê_are_in_trimestres1",
+                    "ID": "mê_are_in_trimestres2",
                     "Preposition": {
                       "Object": {
                         "Role": "etitulo_etitulo.extraido_em.variation.hierarquia_de_data.trimestre"
